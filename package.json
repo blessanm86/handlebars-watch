@@ -13,7 +13,7 @@
   ],
   "main": "lib/handlebars-watch.js",
   "bin": {
-    "handlebars-watch": "./bin/handlebars-watch"
+    "handlebars-watch": "./bin/handlebars-watch.js"
   },
   "repository": {
     "type": "git",
