@@ -1,0 +1,38 @@
+{
+  "name": "handlebars-watch",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "homepage": "https://github.com/blessenm/handlebars-watch",
+  "author": "Blessan Mathew <blessenm@gmail.com>",
+  "description": "A module that will execute a Handlebars precompilation command whenever a change is made in the watched directories",
+  "contributors": [ 
+    {
+      "name": "Blessan Mathew",
+      "email": "blessenm@gmail.com"
+    } 
+  ],
+  "main": "lib/handlebars-watch.js",
+  "bin": {
+    "handlebars-watch": "./bin/handlebars-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blessenm/handlebars-watch.git"
+  },
+  "keywords": [
+    "cli",
+    "handlebars",
+    "mustache",
+    "template",
+    "html",
+    "watch"
+  ],
+  "dependencies" : {
+    "optimist" :  "0.x.x",
+    "watch" : "0.7.x"
+  },  
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.5"
+  }
+}
