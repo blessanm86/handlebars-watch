@@ -19,6 +19,8 @@ In CLI
 
     handlebars-watch -c ../build/hbw-config.json
     
+    May need to use 'sudo' along with the command in the linux and mac OS.
+    
 Inside a node file
 
     var hbw = require('handlebars-watch');
